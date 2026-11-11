@@ -1,0 +1,94 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "product": "Products",
+    "contact": "Contact",
+    "quote": "Get a Quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "toggleTheme": "Toggle light/dark mode"
+  },
+  "hero": {
+    "welcome": "Welcome to",
+    "title1": "Turn your ideas",
+    "title2": "into reality",
+    "tagline": "Get your business website up and running fast",
+    "viewProducts": "View Products",
+    "contactUs": "Contact Us"
+  },
+  "highlights": {
+    "fast": "Fast",
+    "fastDesc": "On-time delivery, ready for real use",
+    "quality": "Quality",
+    "qualityDesc": "High standards, checked at every step",
+    "support": "Ongoing Support",
+    "supportDesc": "Our team is always here to help"
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "A partner you can trust",
+    "desc": "We are committed to delivering quality products and services that fit your business, with an expert team that cares about every detail.",
+    "point1": "Over 10 years of industry experience",
+    "point2": "Certified professional team",
+    "point3": "Trusted by more than 500 clients",
+    "point4": "Attentive after-sales service",
+    "statYears": "Years of experience",
+    "statClients": "Clients",
+    "statProjects": "Projects",
+    "statSatisfaction": "Satisfaction"
+  },
+  "product": {
+    "eyebrow": "Products & Services",
+    "title": "What we offer you",
+    "subtitle": "Choose the service that fits your business",
+    "web": "Web Design",
+    "webDesc": "Beautiful websites that work on every device",
+    "marketing": "Online Marketing",
+    "marketingDesc": "Grow sales with measurable strategies",
+    "goods": "Quality Products",
+    "goodsDesc": "Hand-picked products, the best for you",
+    "automation": "Automation",
+    "automationDesc": "Less repetitive work, more efficiency",
+    "security": "Security",
+    "securityDesc": "Protect your business data",
+    "delivery": "Fast Delivery",
+    "deliveryDesc": "Nationwide shipping to your door",
+    "more": "Learn more →"
+  },
+  "contact": {
+    "eyebrow": "Contact Us",
+    "title": "Have a question? Send us a message",
+    "subtitle": "Our team will get back to you within 24 hours",
+    "infoTitle": "Contact Information",
+    "address": "123 Sukhumvit Rd, Khlong Toei, Bangkok 10110",
+    "mapTitle": "Google Maps",
+    "name": "Full name *",
+    "email": "Email *",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message *",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Your message has been sent. Thank you!",
+    "errorConfig": "EmailJS is not configured — add the keys to .env.local (see .env.example)",
+    "errorSend": "Failed to send. Please try again or reach us through another channel."
+  },
+  "footer": {
+    "tagline": "Get your business website up and running fast",
+    "menu": "Menu",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "floating": {
+    "line": "LINE OA",
+    "facebook": "Facebook",
+    "messenger": "Messenger",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "call": "Call us",
+    "open": "Open contact options",
+    "close": "Close contact options"
+  }
+}

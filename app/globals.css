@@ -1,26 +1,59 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1f2937;
+  color-scheme: light;
+
+  /* height navbar */
+  --nav-height: 84px;
+}
+
+.dark {
+  --background: #030712;
+  /* gray-950 */
+  --foreground: #f3f4f6;
+  /* gray-100 */
+  color-scheme: dark;
+  /* scrollbar, input ฯลฯ ของเบราว์เซอร์เป็นสีมืดด้วย */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  /* Front: Sarabun (เนื้อหา), Kanit (หัวข้อ) */
+  --font-sans: var(--font-sarabun);
+  --font-heading: var(--font-kanit);
+
+  /* Color: Main */
+  --color-brand-50: #eef6ff;
+  --color-brand-100: #d9eaff;
+  --color-brand-200: #bcdaff;
+  --color-brand-300: #8ec3ff;
+  --color-brand-400: #59a2ff;
+  --color-brand-500: #337dfc;
+  --color-brand-600: #1d5ef1;
+  --color-brand-700: #1549de;
+  --color-brand-800: #183db4;
+  --color-brand-900: #1a388d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  /* Scroll padding */
+  scroll-padding-top: var(--nav-height);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
